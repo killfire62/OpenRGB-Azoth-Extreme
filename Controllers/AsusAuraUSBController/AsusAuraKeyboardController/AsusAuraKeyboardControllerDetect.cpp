@@ -22,6 +22,7 @@
 \*---------------------------------------------------------*/
 #define AURA_ROG_AZOTH_USB_PID                              0x1A83
 #define AURA_ROG_AZOTH_2_4_PID                              0x1A85
+#define AURA_ROG_AZOTH_EXTREME_USB_PID                      0x1B3F
 #define AURA_ROG_CLAYMORE_PID                               0x184D
 #define AURA_ROG_FALCHION_WIRED_PID                         0x193C
 #define AURA_ROG_FALCHION_WIRELESS_PID                      0x193E
@@ -77,6 +78,7 @@ REGISTER_HID_DETECTOR_IP("ASUS ROG Strix Scope RX TKL Wireless Deluxe",     Dete
 REGISTER_HID_DETECTOR_IP("ASUS ROG Strix Scope NX TKL Moonlight White",     DetectAsusAuraUSBKeyboard,   AURA_USB_VID, AURA_ROG_STRIX_SCOPE_NX_TKL_MOONLIGHT_WHITE_PID,  1,  0xFF00);
 REGISTER_HID_DETECTOR_IP("ASUS ROG Azoth USB",                              DetectAsusAuraUSBKeyboard,   AURA_USB_VID, AURA_ROG_AZOTH_USB_PID,                           1,  0xFF00);
 REGISTER_HID_DETECTOR_IP("ASUS ROG Azoth 2.4GHz",                           DetectAsusAuraUSBKeyboard,   AURA_USB_VID, AURA_ROG_AZOTH_2_4_PID,                           1,  0xFF00);
+REGISTER_HID_DETECTOR_IP("ASUS ROG Azoth Extreme USB", DetectAsusAuraUSBKeyboard, AURA_USB_VID, AURA_ROG_AZOTH_EXTREME_USB_PID, 1, 0xFF00);
 REGISTER_HID_DETECTOR_IP("ASUS ROG Claymore",                               DetectAsusAuraUSBKeyboard,   AURA_USB_VID, AURA_ROG_CLAYMORE_PID,                            1,  0xFF00);
 REGISTER_HID_DETECTOR_IP("ASUS ROG Falchion (Wired)",                       DetectAsusAuraUSBKeyboard,   AURA_USB_VID, AURA_ROG_FALCHION_WIRED_PID,                      1,  0xFF00);
 REGISTER_HID_DETECTOR_IP("ASUS ROG Falchion (Wireless)",                    DetectAsusAuraUSBKeyboard,   AURA_USB_VID, AURA_ROG_FALCHION_WIRELESS_PID,                   1,  0xFF00);
