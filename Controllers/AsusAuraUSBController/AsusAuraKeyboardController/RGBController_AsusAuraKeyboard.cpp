@@ -65,6 +65,7 @@ RGBController_AuraKeyboard::RGBController_AuraKeyboard(AuraKeyboardController* c
 
             case AURA_ROG_AZOTH_USB_PID:
             case AURA_ROG_AZOTH_2_4_PID:
+                        case AURA_ROG_AZOTH_EXTREME_USB_PID:
             case AURA_ROG_FALCHION_WIRED_PID:
             case AURA_ROG_FALCHION_WIRELESS_PID:
             case AURA_ROG_STRIX_FLARE_II_PID:
@@ -464,6 +465,7 @@ void RGBController_AuraKeyboard::SetupZones()
             break;
         case AURA_ROG_AZOTH_USB_PID:
         case AURA_ROG_AZOTH_2_4_PID:
+                        case AURA_ROG_AZOTH_EXTREME_USB_PID:
             keyboard_ptr = &AsusROGAzothLayouts;
             break;
         case AURA_ROG_FALCHION_WIRED_PID:
