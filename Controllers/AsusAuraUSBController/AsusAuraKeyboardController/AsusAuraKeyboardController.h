@@ -36,6 +36,7 @@ enum
 {
     AURA_ROG_AZOTH_USB_PID                              = 0x1A83,
     AURA_ROG_AZOTH_2_4_PID                              = 0x1A85,
+AURA_ROG_AZOTH_EXTREME_USB_PID                      = 0x1B3F,
     AURA_ROG_CLAYMORE_PID                               = 0x184D,
     AURA_ROG_FALCHION_WIRED_PID                         = 0x193C,
     AURA_ROG_FALCHION_WIRELESS_PID                      = 0x193E,
